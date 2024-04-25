@@ -3,6 +3,14 @@ Quickstart for interacting with language models and APIs via a notebook-like int
 
 George Box: "All models are wrong, but some are useful."
 
+## Quickstart
+
+Look at the demo notebook in a colab: 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jaanli/language-model-notebooks/blob/main/notebooks/getting-started.ipynb)
+
+Or in a browser:
+[getting-started.ipynb](notebooks/getting-started.ipynb)
+
 ## Installing prerequisities
 
 ```

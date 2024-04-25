@@ -301,6 +301,8 @@ python-dateutil==2.9.0.post0
     # via
     #   arrow
     #   jupyter-client
+python-dotenv==1.0.1
+    # via -r requirements.in
 python-json-logger==2.0.7
     # via jupyter-events
 pyyaml==6.0.1

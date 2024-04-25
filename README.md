@@ -17,3 +17,14 @@ After installing the prerequisites, you can run the notebooks by running the fol
 ```
 jupyter lab
 ```
+
+If a browser window doesn't open automatically, you can navigate to `http://localhost:8888/lab` in your browser and follow the instructions there.
+
+## Testing different closed-source language models via a third-party API
+
+You'll need to add a file called `.env` to this repository, with the following content:
+```
+PROVIDER_API_KEY=your-api-key
+```
+
+Replacing `your-api-key` with your actual OpenAI/Anthropic/Microsoft API key.

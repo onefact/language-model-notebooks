@@ -2,3 +2,9 @@ jupyter-ai
 jupyterlab
 python-dotenv
 langchain-anthropic
+pandas
+ipywidgets
+numpy
+matplotlib
+altair
+vega_datasets

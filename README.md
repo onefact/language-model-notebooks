@@ -36,3 +36,58 @@ PROVIDER_API_KEY=your-api-key
 ```
 
 Replacing `your-api-key` with your actual OpenAI/Anthropic/Microsoft API key.
+
+## Applications that are helpful for working with large language models
+
+On a Mac, you can install the following applications to make working with large language models easier:
+
+- Maccy: clipboard manager (https://maccy.app/): `brew install maccy`
+- Rectangle: window manager (https://rectangleapp.com/): `brew install rectangle`
+- Amethyst: tiling window manager (https://ianyh.com/amethyst/): `brew install amethyst`
+
+There are equivalents on Windows, that can be installed with chocolatey.org, such as copyq: `choco install copyq`.
+
+## Enabling word wrapping in Jupyter Lab
+
+Inside a virtual environment, run the following command:
+```
+which jupyter-lab
+```
+
+This will give you a path:
+
+```
+/Users/me/projects/language-model-notebooks/.venv/bin/jupyter-lab
+```
+
+Alternatively:
+```
+jupyter --path
+```
+
+You can then edit the settings file:
+
+```
+code ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings
+```
+
+And add the following to make sure line wrapping and code cell wrapping is on:
+
+```
+{
+  "MarkdownCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  },
+  "CodeCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  }
+}
+```
+
+## Enabling GitHub Copilot support in Jupyter Lab
+
+- [ ] TODO

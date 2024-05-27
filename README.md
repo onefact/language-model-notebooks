@@ -19,6 +19,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Then after activating (`source .venv/bin/activate`) run jupyter lab `jupyter lab`. You will need to make sure to activate the virtual environment every time you restart your computer or shell session.
+
 ## Running the notebooks
 
 After installing the prerequisites, you can run the notebooks by running the following command:
